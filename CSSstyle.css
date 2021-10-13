@@ -1,0 +1,122 @@
+#navmenu{
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    width: 1334px;
+    height: 80px;
+    top: 0px;
+    font-size: 25px;
+    z-index: 100 !important;
+    border-bottom: 1px solid rgb(219, 226, 239);
+    background: rgb(249, 247, 247);
+    
+}
+
+#navfooter{
+    list-style: none;
+    text-decoration: none;
+    border-top: 1px solid rgb(63, 114, 175);
+    background: rgb(17, 45, 78);
+    height: 80px;
+    width: 100%;
+     
+}
+#navfooter img{
+    width: 50px;
+    height: 50px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+
+#navfooter img:hover{
+    -webkit-filter: none;	
+	filter: none;
+}
+
+
+#intro-site {
+  position: absolute;
+  top: 250px;
+  right: 20px;
+  left: 500px;
+  font-size: 80px;
+  letter-spacing: 2px;
+  color: rgb(249, 247, 247);
+  text-shadow: rgb(219, 226, 239);
+  z-index: 2;
+  margin: 20px auto 4px;
+}
+
+#div-margin{
+    margin: 0px 20px;
+}
+
+#sec-espaco{
+    margin-top: 100px;
+}
+
+#ani-img{
+    transition: transform 250ms, opacity 400ms;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ani-txt{
+    animation:1s ease 100ms normal forwards 1 fadein;
+    -webkit-animation:1s ease 100ms normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+#ani-img:hover{
+    transform: scale(1.2);
+    opacity: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;   
+}
+#body-port{
+    background-image: url('imagens/dungeons-and-dragons.jpg');
+}
+
+#body-projeto{
+    background-image: url('imagens/trash-g5642898fb_1920.jpg');
+}
+
+
+#img-borrada{
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+body section{
+    margin: 0px 50px;
+    background-color: rgb(249, 247, 247);
+}
+
+
+
+
+
+body h1{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
